@@ -19,4 +19,4 @@ A simple and user-friendly resume template editor built using HTML, CSS, and Jav
 
 1. Clone the repository to your local machine:
 
-   git clone https://github.com/yourusername/Resume-Template-Editor.git
+   git clone https://github.com/Sid080802/Resume-Template-Editor.git
