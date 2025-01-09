@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Template</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+  <div class="resume-container" id="resume-container">
+    <!-- Left Section -->
+    <div class="left-section">
+      <div class="profile">
+        <div class="profile-picture-container" id="profilePictureContainer">
+          <img id="profilePicture" src="user.png" alt="Profile Picture">
+          <input type="file" id="profileImageInput" accept="image/*">
+        </div>
+        <!-- <div class="upload-instruction">Click on the picture to upload</div> -->
+        <h2 contenteditable="true">John Doe</h2>
+        <p contenteditable="true">Software Developer</p>
+      </div>
+      <div class="contact">
+        <h3><i class="fas fa-phone"></i> Contact</h3>
+        <p contenteditable="true">Address: 123 Main Street, New York, NY 10001</p>
+        <p contenteditable="true">Phone: +1 123 456 7890</p>
+        <p contenteditable="true">E-mail: johndoe@example.com</p>
+      </div>
+      <div class="personal-info">
+        <h3><i class="fas fa-info-circle"></i> Personal Information</h3>
+        <p contenteditable="true">Date of Birth: January 1, 1995</p>
+        <p contenteditable="true">Nationality: American</p>
+        <p contenteditable="true">Gender: Male</p>
+        <p contenteditable="true">Marital Status: Single</p>
+      </div>
+      <div class="skills">
+        <h3><i class="fas fa-cogs"></i> Skills</h3>
+        <ul>
+          <li contenteditable="true">Automation Testing</li>
+          <li contenteditable="true">Java</li>
+          <li contenteditable="true">Manual Testing</li>
+          <li contenteditable="true">SQL</li>
+        </ul>
+      </div>
+      <div class="languages">
+        <h3><i class="fas fa-language"></i> Languages</h3>
+        <ul>
+          <li contenteditable="true">English (Fluent)</li>
+          <li contenteditable="true">Spanish (Intermediate)</li>
+          <li contenteditable="true">French (Basic)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-section">
+      <div class="summary">
+        <h3>Summary</h3>
+        <p contenteditable="true">I am a highly skilled and motivated software professional with over 3 years of experience in software testing and development. Adept at ensuring software quality through rigorous manual and automated testing.</p>
+     
+      </div>
+      <div class="work-history">
+        <h3>Experience</h3>
+        <p contenteditable="true"><strong>Software Developer</strong> - XYZ Solutions</p>
+        <p contenteditable="true">XYZ Solutions, New York, NY
+          January 2021 – Present</p>
+        <p contenteditable="true">Conducted manual and automated testing for web and mobile applications, ensuring 99.9% bug-free delivery.
+         </p>
+
+        <p contenteditable="true"><strong>Software Tester</strong> - ABC Tech</p>
+        <p contenteditable="true">San Francisco, CA (2019 - 2021)</p>
+        <p contenteditable="true">Conducted manual and automated testing for web and mobile applications, ensuring 99.9% bug-free delivery.
+          </p>
+      </div>
+      <div class="projects">
+        <h3>Projects</h3>
+        <p contenteditable="true"><strong>E-commerce Web Application Testing</strong></p>
+        <p contenteditable="true">Performed manual and automation testing for a high-traffic e-commerce platform.</p>
+      </div>
+      <div class="education">
+        <h3>Education</h3>
+        <p contenteditable="true">Bachelor's Degree in Computer Science - University of New York</p>
+        <p contenteditable="true">Graduated: 2017</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="icon-container">
+    <i id="downloadIcon" class="fas fa-download"></i> <!-- Download icon -->
+  </div>
+
+
+  <button id="downloadResumeBtn">Download Resume</button>
+
+
+  <!-- Font Awesome Icons -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
